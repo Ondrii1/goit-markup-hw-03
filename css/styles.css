@@ -183,7 +183,7 @@ text-align: center;
                                 text-transform: uppercase;
                                 flex: none;
                                 text-decoration: 0;}
-                                .btn:hover .btn:focus {background-color: #404BBF;
+                                .btn:hover, .btn:focus {background-color: #404BBF;
                                 color:var(--primary-white-color); 
                                 border: 1px solid transparent;}
                                 .ptitle {font-weight: 500;
@@ -210,3 +210,10 @@ align-items: center;}
         justify-content: center;
         gap: 24px;
         margin-bottom: 72px;}
+        .list-photo {display: flex;
+            flex-wrap: wrap;
+             column-gap: 24px;
+             row-gap: 48px;
+            }
+            .photo-port {width: calc((100% - 48px) / 3); 
+            }
