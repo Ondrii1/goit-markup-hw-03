@@ -75,7 +75,7 @@ color:var(--primary-accent-color)}
         
         color: #FFFFFF;
         }
-        
+        .img {display: block;}
                 .parag {font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 400;
@@ -87,7 +87,7 @@ color:var(--primary-accent-color)}
                     color: #434455;}
                    .adv {list-style: none;}
                    .ourimg {list-style: none;
-                    display: block;
+                    
                 }
                    .footer {background-color: #2E2F42;}
                    .footer-link {font-family: 'Raleway', sans-serif;
@@ -141,7 +141,7 @@ color:var(--primary-accent-color)}
 .header-adr {font-style: normal;}
                         .section-ourteam {background-color: #F4F4FD}
                         .photo { background-color: #FFFFFF;
-                        display: block;}
+                        }
                         .body {font-family: "Roboto", sans-serif;
                             color: #434455;
                             background-color:var(--primary-white-color);}
@@ -171,3 +171,4 @@ color:var(--primary-accent-color)}
                                 color:var(--primary-accent-color)}
 .header {border-bottom: 1px solid #e7e9fc;}
 .div {display: flex;}
+.container {width: 1158px;}
