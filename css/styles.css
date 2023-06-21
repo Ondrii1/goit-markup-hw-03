@@ -99,27 +99,28 @@ text-align: center;
                     flex-basis: calc((100% - 2 * 24px) / 3) ;
                     
                 }
-                   .footer {background-color: #2E2F42;}
+                   .footer {background-color: #2E2F42;
+                    padding-top: 100px; 
+                    padding-bottom: 100px;}
                    .footer-link {font-family: 'Raleway', sans-serif;
                     font-style: normal;
                     font-weight: 800;
                     font-size: 18px;
                     line-height: 1.17;
-                    
-                
+                    display: inline-block;
                     letter-spacing: 0.03em;
                     text-transform: uppercase;
                     flex: none;
                     text-decoration: 0;
                  color: #4D5AE5;
-                 margin-bottom: 24px;}
+                 margin-bottom: 16px;}
                  .logo-white {color: #F4F4FD}
                  .footer-p {font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 24px;
-                  
+                    max-width: 264px;
                     letter-spacing: 0.02em;
                  
                     color: #F4F4FD;}
@@ -174,7 +175,7 @@ text-align: center;
                                 font-size: 18px;
                                 line-height: 1.17;
                                 color:var(--primary-blue-color);
-                               
+                                margin-right: 76px;
                                 letter-spacing: 0.03em;
                                 text-transform: uppercase;
                                 flex: none;
