@@ -23,6 +23,7 @@
     padding-bottom: 24px;
 }
 .header-link {
+    padding: 24px 0;    
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -96,6 +97,9 @@ text-align: center;
         
         color: #FFFFFF;
         }
+        .list-nav {list-style: none;
+            display: flex;
+            gap: 40px}
         .img {display: block;}
                 .parag {font-family: 'Roboto';
                     font-style: normal;
