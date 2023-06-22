@@ -100,7 +100,7 @@ text-align: center;
         .list-nav {list-style: none;
             display: flex;
             gap: 40px}
-        .img {display: block;}
+        
                 .parag {font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 400;
@@ -234,9 +234,12 @@ align-items: center;}
              column-gap: 24px;
              row-gap: 48px;
             }
-            .photo-port { width: calc((100% - 48px) / 3); 
+            .img {display: block;}
+            .photo-port {  
             }
             .divport {padding: 32px 16px;
                 border: 1px solid #e7e9fc;
                 border-top: none;
             }
+            .link-photo {text-decoration: none;
+                width: calc((100% - 48px) / 3);}
