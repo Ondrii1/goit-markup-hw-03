@@ -265,7 +265,7 @@ align-items: center;}
                 border-top: none;
             }
             .link-photo {text-decoration: none;
-                width: calc((100% - 48px) / 3);}
+                }
                 .namepower {font-weight: 500;
                     margin-bottom: 8px;
                     font-size: 20px;
