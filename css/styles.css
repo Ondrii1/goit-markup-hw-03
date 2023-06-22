@@ -173,7 +173,9 @@ margin: 0 auto;
                         .list {list-style: none;
                             display: flex;
                             gap: 24px;}
-                        .link {text-decoration: none}
+                        .link {text-decoration: none;
+                            
+                        }
                         .hclass {color:var(--primary-accent-color) ;
                             font-size: 36px;
                             line-height: 1.11;
@@ -257,7 +259,7 @@ align-items: center;}
              row-gap: 48px;
             }
             .img {display: block;}
-            .photo-port
+            .photo-port 
             .divport {padding: 32px 16px;
                 border: 1px solid #e7e9fc;
                 border-top: none;
