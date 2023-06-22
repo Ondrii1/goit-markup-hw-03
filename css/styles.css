@@ -64,7 +64,6 @@ margin: 0 auto;
     .hero-btn {background: #4D5AE5;
         display: block;
         margin: 0 auto;
-        display: block;
         cursor: pointer;
         min-width: 169px;
         height: 56px;
@@ -104,8 +103,10 @@ margin: 0 auto;
         color: #FFFFFF;
         }
         .list-nav {list-style: none;
+            flex-direction: row;
             display: flex;
-            gap: 40px}
+            gap: 40px;
+        }
         
                 .parag {font-family: 'Roboto';
                     font-style: normal;
@@ -186,7 +187,12 @@ margin: 0 auto;
                             letter-spacing: 0.02em;
                             line-height: 1.5;
                             color:var(--primary-gray-color);}
-.header-adr {font-style: normal;}
+.header-adr {font-style: normal;
+display: flex;
+flex-direction: row;
+gap: 40px;
+margin-left: auto;
+align-items: center;}
                         .section-ourteam {background-color: #F4F4FD;
                             padding-top: 120px;
                             padding-bottom: 120px;}
@@ -250,7 +256,7 @@ align-items: center;}
              row-gap: 48px;
             }
             .img {display: block;}
-            .photo-port 
+            .photo-port
             .divport {padding: 32px 16px;
                 border: 1px solid #e7e9fc;
                 border-top: none;
