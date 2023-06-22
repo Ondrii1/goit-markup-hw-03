@@ -2,6 +2,23 @@
     --primary-accent-color: #2e2f42;
     --primary-gray-color: #434455;
     --primary-blue-color: #4D5AE5;} 
+    img {
+        display: block;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    ul,
+    ol {
+        margin: 0px;
+        padding-left: 0px;
+    }
 .logo {margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
