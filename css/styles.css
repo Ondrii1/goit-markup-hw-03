@@ -196,23 +196,23 @@ flex-direction: row;
 gap: 40px;
 margin-left: auto;
 align-items: center;}
-                        .section-ourteam {background-color: #F4F4FD;
+.section-ourteam {background-color: #F4F4FD;
                             padding-top: 120px;
                             padding-bottom: 120px;}
-                        .photo { background-color: #FFFFFF;
+.photo { background-color: #FFFFFF;
                             flex-basis: calc((100% - 3 * 24px) / 4);
                             border-radius: 0px 0px 4px 4px;
                         }
-                        .body {font-family: "Roboto", sans-serif;
+.body {font-family: "Roboto", sans-serif;
                             color: #434455;
                             background-color:var(--primary-white-color);}
-                            .list .header-link:hover,
-                            .list .header-link:focus {color: #404bbf}
-                            .list .links:hover,
-                            .list .links:focus {color: #404bbf}
-                            .hero-btn:hover,
-                            .hero-btn:focus {background-color: #404BBF}
-                            .logo-port {font-family: 'Raleway', sans-serif;
+.list .header-link:hover,
+ .list .header-link:focus {color: #404bbf}
+ .list .links:hover,
+.list .links:focus {color: #404bbf}
+.hero-btn:hover,
+.hero-btn:focus {background-color: #404BBF}
+.logo-port {font-family: 'Raleway', sans-serif;
                                 font-style: normal;
                                 font-weight: 800;
                                 font-size: 18px;
